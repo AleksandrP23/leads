@@ -1,0 +1,243 @@
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+html {
+  font-size: 10px;
+  line-height: 1.4;
+}
+body {
+  font-size: 1.4rem;
+  font-family: 'Montserrat';
+}
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 15px 180px;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "BebasNeueCyrillic";
+  src: url("../fonts/ofontruBebasNeue.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+/*
+ * Box-sizing-model
+ */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/*
+ * Responsive images
+*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*
+ * Cursor change on hover on Buttons
+*/
+input[type="submit"] {
+  cursor: pointer;
+}
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical;
+}
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.clearfix:after {
+  clear: both;
+}
+.clear {
+  clear: both;
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+#slick-slide00 .tengo {
+  background: linear-gradient(315deg, #ffc060 19.87%, #ffe79a 80.11%), #0a0e20;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+#slick-slide01 .moneyman {
+  background: linear-gradient(315deg, #8fbe15 19.87%, #aad50e 80.11%), #0a0e20;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+#slick-slide02 .xmoney {
+  background: linear-gradient(315deg, #ae320a 19.87%, #f75d2b 80.11%), #0a0e20;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+#slick-slide03 .ecup {
+  background: linear-gradient(315deg, #37c058 19.87%, #4bdb6d 80.11%), #0a0e20;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+#slick-slide00,
+#slick-slide00 .logo,
+#slick-slide00 .btn {
+  color: #000;
+}
+.slides {
+  position: relative;
+}
+.slides .slick-dots {
+  top: 190px;
+  left: 265px;
+}
+.slides .slick-dots li {
+  margin: 0;
+  margin-right: 12px;
+}
+.slides .slick-dots li:last-child {
+  margin-right: 0;
+}
+.slides .slick-dots li button:before {
+  font-size: 18px;
+  color: #000;
+  opacity: 1;
+}
+.slides .slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #fff;
+}
+.slide {
+  color: #fff;
+}
+.slide .slick-dots {
+  top: 0;
+}
+.slide__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 100px;
+}
+.slide__header {
+  display: flex;
+  justify-content: space-between;
+}
+.slide__left {
+  max-width: 585px;
+  width: 100%;
+}
+.slide__title {
+  font-size: 46px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.slide__left-text {
+  font-size: 20px;
+  max-width: 490px;
+  width: 100%;
+}
+.slide__left-text span {
+  font-weight: 600;
+  display: block;
+}
+.slide__right {
+  max-width: 355px;
+  width: 100%;
+}
+.slide__right-desc {
+  font-size: 20px;
+}
+.slide__right-desc span {
+  display: block;
+  font-size: 96px;
+  line-height: 1;
+  font-family: 'BebasNeueCyrillic';
+  text-transform: uppercase;
+}
+.logo {
+  font-size: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+}
+.btn {
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px #fff solid;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn--big {
+  font-size: 30px;
+  padding: 20px 43px;
+}

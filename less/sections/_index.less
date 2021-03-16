@@ -1,0 +1,157 @@
+#slick-slide00 .tengo {
+   background: linear-gradient(315deg, #ffc060 19.87%, #ffe79a 80.11%), #0a0e20;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+}
+
+#slick-slide01 .moneyman {
+   background: linear-gradient(315deg, #8fbe15 19.87%, #aad50e 80.11%), #0a0e20;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+}
+
+#slick-slide02 .xmoney {
+   background: linear-gradient(315deg, #ae320a 19.87%, #f75d2b 80.11%), #0a0e20;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+}
+
+#slick-slide03 .ecup {
+   background: linear-gradient(315deg, #37c058 19.87%, #4bdb6d 80.11%), #0a0e20;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+}
+
+#slick-slide00,
+#slick-slide00 .logo,
+#slick-slide00 .btn {
+   color: #000;
+}
+
+.slides {
+   position: relative;
+
+   .slick-dots {
+      top: 190px;
+      left: 265px;
+
+      li {
+         margin: 0;
+         margin-right: 12px;
+
+         &:last-child {
+            margin-right: 0;
+         }
+      }
+
+      li button:before {
+         font-size: 18px;
+         color: #000;
+         opacity: 1;
+      }
+
+      li.slick-active button:before {
+         opacity: 1;
+         color: #fff;
+      }
+   }
+}
+
+.slide {
+   color: #fff;
+
+   .slick-dots {
+      top: 0;
+   }
+
+   &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-top: 100px;
+   }
+
+   &__header {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__left {
+      max-width: 585px;
+      width: 100%;
+   }
+
+   &__title {
+      font-size: 46px;
+      font-weight: 500;
+      margin-bottom: 25px;
+   }
+
+   &__left-text {
+      font-size: 20px;
+      max-width: 490px;
+      width: 100%;
+
+      & span {
+         font-weight: 600;
+         display: block;
+      }
+   }
+
+   &__right {
+      max-width: 355px;
+      width: 100%;
+   }
+
+   &__right-desc {
+      font-size: 20px;
+
+      & span {
+         display: block;
+         font-size: 96px;
+         line-height: 1;
+         font-family: 'BebasNeueCyrillic';
+         text-transform: uppercase;
+      }
+   }
+}
+
+.logo {
+   font-size: 26px;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: 500;
+   color: #fff;
+}
+
+.btn {
+   font-size: 16px;
+   padding: 10px 15px;
+   border-radius: 5px;
+   border: 1px #fff solid;
+   cursor: pointer;
+   color: #fff;
+   text-decoration: none;
+   display: inline-block;
+}
+
+.btn--big {
+   font-size: 30px;
+   padding: 20px 43px;
+}
