@@ -149,12 +149,23 @@ textarea {
 #slick-slide00 .btn {
   color: #000;
 }
+.tengo svg,
+.moneyman svg,
+.xmoney svg,
+.ecup svg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
 .slides {
   position: relative;
+  overflow: hidden;
 }
 .slides .slick-dots {
-  top: 190px;
-  left: 265px;
+  top: 20%;
+  right: 26%;
+  width: 145px;
+  height: 0;
 }
 .slides .slick-dots li {
   margin: 0;
